@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #425F57;
+    color: #A8E890;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 7rem;
+    text-shadow: #749F82 0.1rem 0.2rem 0.3rem; 
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+.flag-img{
+    height: 8rem;
+}
+
+.dice-game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player{
+    display: inline-block;
+    padding: 2rem;
+}
+
+footer{
+    color: white;
+}
